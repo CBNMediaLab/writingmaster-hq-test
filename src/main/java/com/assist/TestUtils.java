@@ -61,7 +61,7 @@ public class TestUtils {
 	
 	public static MongoClient getMongoClient(){
 
-		ServerAddress addr=new ServerAddress("121.40.81.73",27017);
+		ServerAddress addr=new ServerAddress("116.62.39.49",27017);
 		MongoCredential credential=MongoCredential.createCredential("root", "admin", "Mongo008".toCharArray());
 		List<MongoCredential> listCredential=new ArrayList<MongoCredential>();
 		listCredential.add(credential);
